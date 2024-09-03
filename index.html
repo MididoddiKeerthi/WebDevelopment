@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "inter", sans-serif;
+        color: #000;
+        font-size: 24px;
+      }
+
+      .main {
+        /* background-color: red; */
+      }
+
+      .container {
+        margin-top: 0px;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url(https://images.unsplash.com/photo-1723407583010-7c57da1a3a5f?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        height: 100vh;
+        background-size: cover;
+        /* width: 1200px; */
+        /* height: 100vh; */
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        /* margin: 80px 120px; */
+        /* background-color: red; */
+        padding: 50px 250px;
+      }
+
+      .logo {
+        color: #ced4da;
+        font-size: 38px;
+        font-family: Lora;
+        font-weight: 700px;
+      }
+      .home {
+        color: white;
+        text-transform: uppercase;
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-family: Roboto;
+        font-weight: bold;
+      }
+      .box {
+        border: 10px solid #fff;
+        width: 1000px;
+        margin: 100px auto;
+        padding: 20px 20px;
+        height: 550px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .title {
+        padding-top: 30px;
+        font-family: Roboto;
+        letter-spacing: 4px;
+        font-weight: 300px;
+        /* font-weight: 200px; */
+      }
+
+      .desc {
+        font-size: 92px;
+        /* width: 500px; */
+        text-align: center;
+        font-family: Lora;
+        font-weight: 600px;
+        padding: 0 50px;
+      }
+
+      .source {
+        font-size: 30px;
+        width: 250px;
+        text-align: center;
+        font-family: Roboto;
+        letter-spacing: 2px;
+        font-weight: 300px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+      }
+
+      .container2 {
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: #dee2e6;
+        padding-top: 50px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        /* column-gap: 20px; */
+      }
+
+      .nos {
+        font-size: 240px;
+        color: white;
+        font-weight: bold;
+      }
+
+      .heading {
+        font-size: 48px;
+        font-family: Lora;
+        font-weight: bold;
+        line-height: 2;
+      }
+
+      strong {
+        font-weight: bold;
+      }
+
+      .para {
+        font-family: Roboto;
+        line-height: 1.5;
+        width: 650px;
+      }
+
+      .gird-02 {
+        /* padding-left: 20px; */
+      }
+      .grid-03 {
+        background-image: url(https://images.unsplash.com/photo-1506543277633-99deabfcd722?q=80&w=1575&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        /* height: 1200px; */
+        /* height: 100vh; */
+        /* width: 100vh; */
+        background-color: #f8f0fc;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .heading2 {
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        padding-top: 60px;
+        text-align: center;
+        line-height: 2;
+        font-family: Roboto;
+        /* padding-left: 200px; */
+      }
+      .grid-04 {
+        background-image: url(https://images.unsplash.com/photo-1533119408463-b0f487583ff6?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        width: 100%;
+        height: 100vh;
+        /* width: 100vh; */
+        /* height: 3000px; */
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        /* justify-content: center; */
+        justify-content: flex-end;
+      }
+
+      .title1 {
+        font-size: 65px;
+        padding-bottom: 20px;
+        align-self: center;
+        font-family: Lora;
+        font-weight: 600;
+      }
+
+      .desc3 {
+        font-size: 24px;
+        border: 2px solid black;
+        padding: 10px 10px;
+        display: inline-block;
+        align-self: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 15px 35px;
+        margin-bottom: 100px;
+      }
+
+      .description {
+        margin-bottom: 0;
+        background-color: aqua;
+      }
+
+      .images {
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        /* align-items: center; */
+        /* justify-content: center; */
+        gap: 20px;
+        margin: 80px 160px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .title2 {
+        font-size: 48px;
+        font-family: Lora;
+        font-weight: 100px;
+        padding-bottom: 15px;
+      }
+
+      .container3 {
+        display: flex;
+        justify-content: space-between;
+        /* margin: 80px 120px; */
+        /* background-color: red; */
+        padding: 120px 250px;
+        gap: 50px;
+        background-color: #ced4da;
+        font-family: Roboto;
+        line-height: 1.5;
+      }
+
+      .container4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        /* height: 600px; */
+        height: 1200px;
+      }
+
+      .footer {
+        background-image: url(https://plus.unsplash.com/premium_photo-1671995574743-f217436d3fff?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header2 {
+        background-image: url(https://images.unsplash.com/photo-1493552152660-f915ab47ae9d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        /* background-size: cover; */
+        /* height: 100vh; */
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        /* height: 1000px; */
+      }
+
+      .title3 {
+        padding-top: 20px;
+        color: white;
+        font-family: Roboto;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+
+      h4 {
+        color: white;
+        font-family: Lora;
+        font-size: 54px;
+        letter-spacing: 2px;
+        padding-top: 50px;
+      }
+
+      .desc4 {
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-family: Roboto;
+        padding-bottom: 60px;
+        font-size: 28px;
+      }
+
+      .end1 {
+        background-color: red;
+        color: white;
+        background-image: url(https://images.unsplash.com/photo-1700595822725-9002206960c9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        height: 550px;
+        background-size: 100% 100%;
+      }
+
+      .subs {
+        font-size: 68px;
+        padding-top: 260px;
+        padding-left: 150px;
+        padding-bottom: 50px;
+        font-family: Lora;
+      }
+
+      #email {
+        color: #ced4da;
+        border: 3px solid white;
+        font-family: Roboto;
+        display: inline-block;
+        padding: 15px 15px;
+        padding-right: 80px;
+        margin-left: 150px;
+        vertical-align: center;
+      }
+
+      .btn {
+        color: black;
+        background-color: white;
+        padding: 16px 35px;
+        /* padding-bottom: 22px; */
+        /* height: 60px; */
+        text-align: center;
+        border: none;
+        font-size: 26px;
+        font-weight: bold;
+      }
+
+      .end2 {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        height: 300px;
+        font-family: Roboto;
+        padding: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="header">
+          <p class="logo">logo</p>
+          <p class="home">Home</p>
+        </div>
+
+        <div class="box">
+          <p class="title">GREEN IS THE PRIME COLOR OF THE WORLD</p>
+          <p class="desc">Nature is pleased with simplicity</p>
+          <p class="source">IMAGE FROM FREEPIK</p>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="grid-01">
+          <p class="nos">01</p>
+          <p class="heading">Awesome <strong> Image </strong></p>
+          <p class="para">
+            Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis
+            elementum. Phasellus sed efficitur dolor, et ultricies sapien.
+            Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem
+            odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.
+          </p>
+        </div>
+
+        <div class="grid-02">
+          <p class="nos">02</p>
+          <p class="heading">Fresh and <strong> Creative </strong></p>
+          <p class="para">
+            Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis
+            elementum. Phasellus sed efficitur dolor, et ultricies sapien.
+            Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem
+            odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.
+          </p>
+        </div>
+
+        <div class="grid-03">
+          <p class="heading2">
+            Sample Text. click to select the text box.<br />click again or
+            double click to start <br />editing the text
+          </p>
+        </div>
+
+        <div class="grid-04">
+          <p class="title1">Green And Healthy</p>
+          <p class="desc3">Read More</p>
+        </div>
+      </div>
+
+      <div class="images">
+        <img
+          src="https://images.unsplash.com/photo-1488703212122-a49c6d76bb31?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1522506209496-4536d9020ec4?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <img
+          src="https://plus.unsplash.com/premium_photo-1664301240097-fcb33fe1dfd5?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <img
+          src="https://plus.unsplash.com/premium_photo-1661865088520-b99c8e7add91?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <img
+          src="https://plus.unsplash.com/premium_photo-1661380809312-ffa04eece34f?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1680458842171-6dbeced420f6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+      </div>
+
+      <div class="container3">
+        <div>
+          <p class="title2">Floral <strong>Design Studio</strong></p>
+          <p>
+            Custom interior studio, is a qualified interior designer, who comes
+            from a Film & TV background, during all the years she worked in the
+            film industry, she had the opportunity to work hand in hand with the
+            best art directors. This experience gave her great knowledge of
+            design culture, the key to create ambiences for people to live in,
+            and the most important thing, her passion for design.
+          </p>
+        </div>
+
+        <div>
+          <p>
+            Personal attention, creative solutions. The studio is built on
+            strong client relationship, personal attentiveness, ability to find
+            the right solutions, and an eye for the details that make each space
+            unique.Marks of identity: "To offer my clients a style that makes
+            them feel comfortable and suits their personality".What defines my
+            job: "The space, the object, the piece of furniture, the fabric, and
+            any other element that helps me create the unique ambience my
+            clients are looking for
+          </p>
+        </div>
+      </div>
+
+      <div class="container4">
+        <div class="header2"></div>
+
+        <div class="footer">
+          <div>
+            <h4>Green Atelier</h4>
+            <p class="title3">THIS IS YOUR ASSISTANT</p>
+          </div>
+
+          <div><p class="desc4">In Design</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="container5">
+      <div class="end1">
+        <p class="subs">Subscribe</p>
+        <p id="email">Enter a valid email address</p>
+        <button class="btn">SUBMIT</button>
+      </div>
+      <div class="end2">
+        <p class="last">
+          Sample text.Click to select the text box.Click again or double
+          <br />click to start editing the text.
+        </p>
+      </div>
+      <!-- <p>Subscriber</p> -->
+    </div>
+  </body>
+</html>
