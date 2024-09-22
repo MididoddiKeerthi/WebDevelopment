@@ -1,0 +1,358 @@
+/* BELOW  1552 that is 1552/16 = 97*/
+
+@media (max-width: 97em) {
+  .doggy-blog {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  /* .col1 {
+    padding-left: 10rem;
+  } */
+}
+
+/* BELOW 1344 that is 1344/16 = 84  */
+
+@media (max-width: 84rem) {
+  .about-desc {
+    line-height: 1.2;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+  }
+  .doggy-blog {
+    padding-right: 10rem;
+  }
+
+  .blog-heading {
+    font-size: 3rem;
+    margin-bottom: 0rem;
+  }
+
+  .shop {
+    padding: 5rem;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4.4rem;
+    background-color: #fff;
+    padding-bottom: 10rem;
+  }
+
+  .read-more {
+    margin-top: 0rem;
+    padding: 1rem;
+  }
+
+  .grid-footer {
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    padding-left: 15rem;
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+  }
+  .contacts {
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+
+  .footer-link:link,
+  .footer-link:visited {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #767676;
+    transition: all 0.3s;
+  }
+}
+
+/* BELOW 960 that is 960/16 == 60 */
+
+@media (max-width: 60em) {
+  .header {
+    /* max-width: 130rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe3e3;
+    height: 9.6rem;
+    padding: 4.8rem 0rem 4.8rem 4.8rem;
+  }
+
+  .heading-primary {
+    font-size: 2.9rem;
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 4.4rem;
+    background-color: #fff;
+    padding-bottom: 10rem;
+  }
+
+  .about-desc {
+    line-height: 1.2;
+    font-size: 3.5rem;
+  }
+
+  .shop1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4.4rem;
+  }
+
+  .shop2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem;
+    justify-content: center;
+    margin-bottom: 4.4rem;
+  }
+
+  .shop3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 1.6rem;
+    /* margin-bottom: 4.4rem; */
+  }
+
+  .med-3,
+  .food-3,
+  .toys-3 {
+    grid-column: span 2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .blog {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-bottom: 4rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blog-pic {
+    grid-column: 1 / 2; /* Image takes full width */
+    grid-row: 1 / 2; /* Image on the first row */
+  }
+
+  .blog-pic {
+    width: 100%;
+    margin-left: 10rem;
+    margin-right: auto;
+  }
+}
+
+/* BELOW 768 that is 768/16 = 48em */
+@media (max-width: 48em) {
+  .dog-logo {
+    height: 9.4rem;
+    border-radius: 50%;
+  }
+
+  .main-nav-list:last-child {
+    padding-right: 2rem;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .heading-primary {
+    font-size: 2.3rem;
+  }
+
+  .doggy-blog {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .tool-desc {
+    text-align: left;
+  }
+
+  .blog p {
+    font-size: 2.1rem;
+  }
+
+  .contact-us {
+    max-width: 130rem;
+    margin: 0 auto;
+    margin-top: 0rem;
+    margin-bottom: 10rem;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .cta-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    background-color: #e3f2fd;
+    /* padding-right: 5rem; */
+    padding-left: 5rem;
+    padding-top: 2rem;
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    /* padding-right: 2rem; */
+  }
+
+  .grid-footer {
+    grid-template-columns: 1.5fr 1.5fr;
+    /* padding-left: 15rem; */
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+  }
+  .contacts {
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+
+  .footer-link:link,
+  .footer-link:visited {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #767676;
+    transition: all 0.3s;
+  }
+}
+
+/* BELOW 640 that is 640/16 == 40em */
+
+@media (max-width: 40em) {
+  .header {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .dog-logo {
+    height: 15rem;
+  }
+  .main-nav-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sign-up:link,
+  .sign-up:visited {
+    background-color: #ffe3e3;
+    border: none;
+    padding: 0;
+    font-size: 1.8rem;
+  }
+  .section-hero {
+    /* max-width: 130rem; */
+    display: grid;
+    grid-template-columns: 1fr;
+
+    padding: 0 9.6rem 3rem 9.6rem;
+    gap: 2.4rem;
+    background-color: #ffe3e3;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-logo {
+    width: 100%;
+    height: 74rem;
+    border-radius: 50%;
+  }
+
+  .heading-primary {
+    font-size: 4.1rem;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 2.5rem;
+  }
+
+  .btn-shop:link,
+  .btn-shop:visited {
+    font-size: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icons {
+    padding: 8rem;
+    display: flex;
+    gap: 5.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-desc {
+    line-height: 1.2;
+    font-size: 2.5rem;
+  }
+
+  .shop1,
+  .shop2,
+  .shop3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .med-3,
+  .food-3,
+  .toys-3 {
+    grid-column: span 1;
+    width: 100%;
+  }
+  .doggy-blog {
+    background-color: #fff;
+    /* margin-bottom: 20rem; */
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .blog-heading {
+    font-size: 2.9rem;
+  }
+
+  .blog-pic {
+    width: 100%;
+    margin-left: 5rem;
+    margin-right: auto;
+  }
+
+  .footer {
+    margin-right: 8rem;
+  }
+}

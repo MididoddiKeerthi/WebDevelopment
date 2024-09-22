@@ -1,0 +1,551 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* By default 1rem = 16px to make 1rem = 10px 10/16 = 0.625 ==>62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  /* margin: 2.4rem; */
+  color: #555;
+  font-size: 2.4rem;
+  background-color: #ffe3e3;
+}
+
+/* Header Section */
+
+.header {
+  /* max-width: 130rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffe3e3;
+  height: 9.6rem;
+  padding: 4.8rem 4.8rem;
+}
+
+.subtitle {
+  font-size: 3rem;
+}
+
+.dog-logo {
+  padding-top: 2.4rem;
+  height: 8.6rem;
+  border-radius: 50%;
+}
+
+.main-nav {
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: #555;
+  text-decoration: none;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #333;
+}
+
+.main-nav-list:last-child {
+  padding-right: 6.4rem;
+}
+
+.sign-up:link,
+.sign-up:visited {
+  border: 2px solid #fcc850;
+  background-color: #fcc850;
+  padding: 1.2rem;
+  border-radius: 3px;
+}
+
+.sign-up:hover,
+.sign-up:active {
+  background-color: #fcc419;
+}
+
+/* Hero Section */
+
+.section-hero {
+  /* max-width: 130rem; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 0 9.6rem;
+  gap: 2.4rem;
+  background-color: #ffe3e3;
+}
+
+.section-img {
+  padding: 2.4rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-logo {
+  width: 80%;
+  height: 74rem;
+  border-radius: 50%;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 2.4rem;
+  line-height: 1;
+}
+
+.btn-shop:link,
+.btn-shop:visited {
+  background-color: #fcc850;
+  padding: 1.8rem;
+  border: none;
+  font-size: 2rem;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+  /* padding-left: 6.4rem; */
+}
+
+.btn-shop:hover,
+.btn-shop:active {
+  background-color: #fcc419;
+}
+
+/* TOOLS SECTION */
+
+.tools {
+  background-color: #fff;
+}
+
+.icons {
+  padding: 8rem;
+  display: flex;
+  gap: 9.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.category_item:link,
+.category_item:visited {
+  color: #555;
+}
+
+.category_item:hover,
+.category_item:active {
+  color: #333;
+}
+
+.icon {
+  padding-bottom: 2.4rem;
+}
+.tool-desc {
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+
+/* ABOUT SECTION */
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 4.4rem;
+  background-color: #fff;
+  padding-bottom: 10rem;
+}
+
+.about-us {
+  margin: 0 auto;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.about-desc {
+  line-height: 1.2;
+  font-size: 3rem;
+}
+
+.dog-owner {
+  border-radius: 3.2rem;
+}
+
+/* SHOP SECTION */
+
+.doggy-shop {
+  background-color: #ffe3e3;
+}
+.shop {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.shop-desc {
+  text-align: center;
+  margin-bottom: 4.4rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.price {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 2.4rem;
+  font-weight: 700;
+}
+
+.shop1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4.4rem;
+}
+
+.food {
+  border: 1px solid #ffe3e3;
+  border-radius: 11px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+  margin-bottom: 5rem;
+  background-color: #fff;
+}
+
+.food-img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.4rem;
+  margin-bottom: 3rem;
+  border-radius: 11px;
+}
+
+.shop-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  /* align-items: center; */
+}
+
+.shop-items {
+  list-style: none;
+  line-height: 2;
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.shop2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+  justify-content: center;
+  margin-bottom: 4.4rem;
+}
+
+.toys,
+.med {
+  border: 1px solid #ffe3e3;
+  border-radius: 11px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+  margin-bottom: 5rem;
+  background-color: #fff;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
+.toy-img {
+  display: block;
+  height: 18rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.4rem;
+}
+
+.toy-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.toy-items {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.checkmark {
+  width: 5rem;
+}
+
+.shop3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 1.6rem;
+  /* margin-bottom: 4.4rem; */
+}
+
+.med {
+  margin-bottom: 9rem;
+}
+.med-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.med-img {
+  display: block;
+  height: 18rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.4rem;
+}
+
+.med-items {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.checkmark1 {
+  width: 5rem;
+}
+
+/* BLOG SECTION */
+
+.doggy-blog {
+  background-color: #fff;
+  /* margin-bottom: 20rem; */
+  padding-top: 3rem;
+  padding-bottom: 18rem;
+}
+
+.blogs {
+  margin: 0 auto;
+  max-width: 150rem;
+}
+
+.blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.heading {
+  /* margin-bottom: 5rem; */
+}
+.dog-img {
+  width: 75%;
+  border-radius: 12px;
+}
+
+.dog-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.read-more {
+  margin-top: 2.4rem;
+}
+
+/* CTA SECTION */
+
+.contact-us {
+  max-width: 130rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  background-color: #e3f2fd;
+  padding-right: 5rem;
+}
+
+.heading {
+  grid-column: span 2;
+}
+
+.label {
+  font-weight: 800;
+}
+
+.form-desc {
+  padding-bottom: 2rem;
+}
+
+input {
+  margin-top: 10px;
+  padding: 1.2rem;
+  margin-bottom: 2rem;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+
+.fill-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  padding-right: 2rem;
+}
+
+.fin-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.btn-form {
+  font-size: 2.4rem;
+  padding: 1.8rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+/* Footer Section */
+
+.container {
+  /* 1140px mostly used width */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.logo {
+  height: 6rem;
+  /* width: 75%; */
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+
+  /* margin-bottom: 9.6rem; */
+}
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.grid-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: #767676;
+  line-height: 1.6;
+  margin-top: auto;
+}
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
