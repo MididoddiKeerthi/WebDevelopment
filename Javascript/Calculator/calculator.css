@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+}
+
+.button-symbols {
+  background-color: rgb(254, 160, 10);
+  border-radius: 50%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+}
+
+.button-numbers {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: transparent;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.button-clear {
+  font-size: 15px;
+}
+
+.input-result {
+  color: white;
+}

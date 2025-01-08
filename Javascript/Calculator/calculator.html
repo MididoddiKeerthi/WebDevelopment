@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+  </head>
+  <link rel="stylesheet" href="calculator.css" />
+  <body>
+    <p class="js-result"></p>
+    <p>
+      <button
+        onclick="
+      
+      updateCalculation('1');
+      "
+        class="button-numbers"
+      >
+        1
+      </button>
+
+      <button
+        onclick=" 
+      updateCalculation('2');
+    "
+        class="button-numbers"
+      >
+        2
+      </button>
+
+      <button
+        onclick=" 
+      updateCalculation('3');
+    "
+        class="button-numbers"
+      >
+        3
+      </button>
+
+      <button
+        onclick=" 
+    updateCalculation(' + ')
+    "
+        class="button-symbols"
+      >
+        +
+      </button>
+    </p>
+
+    <p>
+      <button
+        onclick="
+      updateCalculation('4')
+      "
+        class="button-numbers"
+      >
+        4
+      </button>
+
+      <button
+        onclick=" 
+      updateCalculation('5');
+    "
+        class="button-numbers"
+      >
+        5
+      </button>
+
+      <button
+        onclick=" 
+      updateCalculation('6')
+    "
+        class="button-numbers"
+      >
+        6
+      </button>
+
+      <button
+        onclick=" 
+    updateCalculation(' - ')
+    "
+        class="button-symbols"
+      >
+        -
+      </button>
+    </p>
+
+    <p>
+      <button
+        onclick="
+      updateCalculation('7');
+      "
+        class="button-numbers"
+      >
+        7
+      </button>
+
+      <button
+        onclick=" 
+      updateCalculation('8');
+    "
+        class="button-numbers"
+      >
+        8
+      </button>
+
+      <button
+        onclick=" 
+      updateCalculation('9')
+    "
+        class="button-numbers"
+      >
+        9
+      </button>
+
+      <button
+        onclick=" 
+    updateCalculation(' * ')
+    "
+        class="button-symbols"
+      >
+        *
+      </button>
+    </p>
+
+    <p>
+      <button
+        onclick=" 
+      updateCalculation('0');
+    "
+        class="button-numbers"
+      >
+        0
+      </button>
+      <button
+        onclick=" 
+      calculation = eval(calculation);
+      console.log(calculation);
+      document.querySelector('.js-result').innerHTML = calculation;
+    "
+        class="button-numbers"
+      >
+        =
+      </button>
+      <button
+        onclick=" 
+      updateCalculation('.')
+    "
+        class="button-numbers"
+      >
+        .
+      </button>
+
+      <button
+        onclick=" 
+      updateCalculation(' / ')
+    "
+        class="button-symbols"
+      >
+        /
+      </button>
+    </p>
+    <button
+      onclick=" 
+      calculation = '';
+      console.log(calculation);
+      document.querySelector('.js-result').innerHTML = calculation;
+      
+      localStorage.setItem('calculation',calculation);
+    "
+      class="button-numbers button-clear"
+    >
+      Clear
+    </button>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
