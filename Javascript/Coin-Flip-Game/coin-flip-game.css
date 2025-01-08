@@ -1,0 +1,24 @@
+.button-heads,
+.button-tails {
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.button-reset {
+  background-color: lightblue;
+  border: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.js-result {
+  font-size: 30px;
+}
+
+.js-score {
+  font-size: 30px;
+}

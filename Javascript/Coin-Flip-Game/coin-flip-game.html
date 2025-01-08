@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coin Flip Game</title>
+  </head>
+  <link rel="stylesheet" href="coin-flip-game.css" />
+  <body>
+    <p class="js-result"></p>
+    <button
+      onclick=" 
+    playGame('heads')"
+      class="button-heads"
+    >
+      heads
+    </button>
+    <button
+      onclick=" 
+    playGame('tails');
+    "
+      class="button-tails"
+    >
+      tails
+    </button>
+    <button
+      onclick=" 
+    score.wins = 0
+    score.losses = 0
+    localStorage.removeItem('score');
+    document.querySelector('.js-result').innerHTML = '';
+    document.querySelector(
+        '.js-score'
+      ).innerHTML = `Wins: ${score.wins} Losses: ${score.losses}`;
+    "
+      class="button-reset"
+    >
+      Reset Score
+    </button>
+
+    <p class="js-score"></p>
+    <script src="coin-flip-game.js"></script>
+  </body>
+</html>
